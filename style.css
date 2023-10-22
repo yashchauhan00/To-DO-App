@@ -1,0 +1,94 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+body{
+   
+   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+   background-size: 400% 400%;
+   animation: gradient 1s ease infinite;
+
+@keyframes gradient {
+   0% {
+       background-position: 0% 50%;
+   }
+   50% {
+       background-position: 100% 50%;
+   }
+   100% {
+       background-position: 0% 50%;
+   }
+}
+   /* background-color: #494D5F;
+   font-family: 'Poppins', sens-serif; */
+      /* background-color: #021027; */
+}
+    
+    
+.container h1{
+   margin-right: 180px;
+   margin-top: 60px;
+   color:black;
+   text-shadow: 0px 0px 40px #1f1f1f;
+   /* text-shadow: #1f1f1f; */
+}
+.container{
+   /* height: 220px; */
+   width: 400px;
+   padding: 5px;
+   text-align: center;
+   background-color:rgb(231, 231, 231);
+   margin-left: 36%;
+   margin-top: 200px;
+   border-radius: 20px;
+   text-shadow: #1f1f1f;
+   box-shadow: 0px 0px 40px #1f1f1f;
+}
+input{
+   margin-bottom: 15px;
+   width: 270px;
+   padding: 8px; 
+   border: 2px solid rgb(6, 145, 145);
+   outline: none;
+   font-size: 19px;
+   border-radius: 15px;
+}
+
+button{
+   /* margin-top: 80px; */
+   width: 60px;
+   height: 41px;
+   background-color:#c89666;
+   color: white;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   border-radius: 2px;
+   font-size: 19px;
+   border-radius: 15px;
+   border: 1px solid black;
+   /* background: linear-gradient(to right, black 50%, white 50%); */
+   transition: all .5s ease-out;
+}
+.text ul{
+   /* margin-bottom: 20px; */
+   margin-left:25px;
+   margin-top: 8px;
+   width: 332px;
+   /* padding: 100px;  */
+   position: relative;
+   background-color:#c89666;
+   color:white;
+   font-size: 19px;
+   padding: 7px;
+   text-align: left;
+   border-radius: 15px;
+}
+
+.text ul i{
+   position: absolute;
+   right: 10px;
+   cursor: pointer;
+}
